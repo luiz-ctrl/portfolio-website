@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <script>
+            window.addEventListener('scroll', function() {
+                const header = document.querySelector('.header');
+                if (window.scrollY > 50) {
+                    header.classList.add('collapsed');
+                } else {
+                    header.classList.remove('collapsed');
+                }
+            });
+        </script>
+        <img src="download.png" alt="Logo" class="logo-img">
+        <div class="menu-toggle">&#9776;</div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#works">Works</a>
+            <a href="#contacts">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, I'm</h3>
+            <h1>Luiz Kieth</h1>
+            <h3>I'am <span class="highlight">Information Technology Student</span></h3>
+            <p>From Dalubhasaan ng Lungsod ng Lucena</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/Kieth.1221" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/scrt_nmrcl/?igsh=MXZ1aDU4YWd2NndoZw%3D%3D&fbclid=IwZXh0bgNhZW0CMTAAAR2Qzaf4fksxDme8vYdRe2E6gBCHkOOOFvyL6xL7uDoM8qFKKdxuIYLRVzg_aem_fqCCZy8mOd-OAdeSljB0LQ"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/patiag-luiz-kieth-75a237306/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="#about" class="btn">About me</a>
+        </div>
+        <div class="home-img">
+            <img src="IMG_3442-removebg-preview (1).png" alt="Profile Image">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="IMG_3442-removebg-preview (1).png" alt="Profile Image">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Hello! I'm Luiz Patiag, a second-year IT student at Dalubhasaan ng Lungsod ng Lucena. Alongside my studies, I serve as a student assistant at the property division of the school, where I contribute to maintaining the school's assets and facilities. This role has given me valuable experience in organizational management and teamwork
+            Passionate about technology and its applications,
+            I'm dedicated to expanding my knowledge in IT through practical learning and academic pursuits. Beyond academics, I enjoy exploring new technologies,
+            solving problems, and applying my skills to real-world scenarios.</p>
+            <br>
+            <H2>EDUCATION</H2>
+             <div id="education-info" class="hidden">
+                <ul>
+                    <li>Elementary School: <a href="https:www.facebook.com/nieva.es.7?mibextid+ZbWKwL" target="_blank">Nieva Elementary School</a></li>
+                    <li>High School: <a href="https://www.facebook.com/SINHSGeneralLunaSSG?mibextid=ZbWKwL" target="_blank">San Isidro National High School</a></li>
+                    <li>Senior High School: <a href="https://www.facebook.com/DepEdTayoGNHS301325" target="_blank">Gumaca National High School</a></li>
+                    <li>College: <a href="https://dll.edu.ph/" target="_blank">Dalubhasaan ng Lungsod ng Lucena (Present)</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="works" id="works">
+        <h2 class="heading">My <span>Works</span></h2> 
+
+        <div class="work-container">
+            <div class="work-box">
+                <img src="449398904_797376915898467_7274473669363586980_n.jpg" alt="Profile Image">
+                <h1>Simple Calculator</h1>
+                <p>Developed a functional calculator using CSS, HTML, and JavaScript, showcasing my proficiency in front-end web technologies. The calculator's interface, crafted with HTML, features a clean layout with buttons for digits, operators, and functions like clear and equals. CSS styling enhanced the visual appeal, ensuring the calculator is both user-friendly and aesthetically pleasing. JavaScript powered the calculator's logic, handling user inputs, performing arithmetic operations, and displaying results dynamically. </p>
+                <a href="https://luiz-ctrl.github.io/IPT101calculator/" target="_blank" class="btn">Try this one</a>
+            </div>
+
+            <div class="work-box">
+                <img src="449795827_1900169657062149_3217321041272344118_n.jpg" alt="Profile Image">
+                <h1>Rock-Paper-Scissors</h1>
+                <p>Developed a simple yet engaging rock-paper-scissors game using a combination of HTML, CSS, and JavaScript. The game interface, designed with HTML, provides a clean layout where players can make their selections.
+                     CSS styling enhanced the presentation, adding visual appeal and ensuring a responsive design across different devices. JavaScript powered the game mechanics, handling player inputs, generating random computer choices,
+                      and determining the winner based on classic rules. Implementing event listeners and DOM manipulation in JavaScript facilitated real-time updates to the game state, providing immediate feedback on wins, losses, or draws.
+                <br>     
+                <br>
+                <a href="https://luiz-ctrl.github.io/rock-paper-scissor1/" target="_blank" class="btn">Play</a>
+                </p>
+            </div>
+
+            <div class="work-box">
+                <img src="449401657_2145066349206293_6858487057525150087_n.jpg" alt="Profile Image">
+                <h1>Python Tkinter</h1>
+                <p>I recently developed a straightforward system using Python's Tkinter library to create a basic pancit eatery application. The application features a graphical user interface (GUI) with a Treeview widget to display orders.
+                     Users can easily add new orders, specifying the type and quantity of pancit they wish to order. The CRUD (Create, Read, Update, Delete) functionality allows users to update existing orders directly within the Treeview,
+                      making modifications like changing quantities or removing orders entirely seamless. </p>
+                <a href="https://docs.python.org/3/library/tkinter.html" target="_blank" class="btn">Learn more about Tkinter</a>
+            </div>
+
+            <div class="work-box">
+                <img src="Screenshot (83).png" alt="Figma Design Image">
+                <h1>Portfolio Website Design Using Figma</h1>
+                <p>I recently developed a portfolio website design using Figma. The design features a clean and modern interface, with sections for an about me page, projects, and contact information. Figma's collaborative tools allowed me to iterate quickly and receive feedback in real-time.</p>
+                <a href="https://www.figma.com/design/gSZUy8IGuf2ige1B2rMCsn/PATIAG_PORTFOLIO?node-id=0-1&t=4xIcCnGcSJynG90A-0" target="_blank" class="btn">View Content</a>
+            </div>
+
+            <div class="work-box">
+                <img src="Screenshot (82).png" alt="HTML and CSS Resume Image">
+                <h1>Resume Using HTML and CSS</h1>
+                <p>Created a professional resume using HTML and CSS, showcasing my skills in web development. The resume is fully responsive and features sections for personal information, skills, education, and experience.</p>
+                <a href="https://luiz-ctrl.github.io/Patiag_Resume1/" target="_blank" class="btn">View Content</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contacts">
+        <h2 class="heading">Get in <span>Touch</span></h2>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>You can reach me through the following contact details:</p>
+                <div class="info-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>patiagluiz27@gmail.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>09915307280</p>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Harvard Street Lucena City</p>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/Kieth.1221" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/patiag-luiz-kieth-75a237306/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="mailto:patiagluiz27@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+    
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group"> 
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Luiz Kieth Patiag. All rights reserved.</p>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 50) {
+                header.classList.add('collapsed');
+            } else {
+                header.classList.remove('collapsed');
+            }
+
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.navbar a');
+
+            let currentSection = '';
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= sectionTop - sectionHeight / 3) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').includes(currentSection)) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navbar = document.querySelector('.navbar');
+
+            menuToggle.addEventListener('click', function() {
+                navbar.classList.toggle('show');
+            });
+        });
+    </script>
+</body>
+</html>
